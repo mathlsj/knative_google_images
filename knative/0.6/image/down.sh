@@ -30,6 +30,7 @@ down_other=(
     mathlsj/knative-elasticsearch:v5.6.4
     mathlsj/knative-fluentd-elasticsearch:v2.0.4
     mathlsj/knative-cloud-builders-gcs-fetcher:0.6
+    mathlsj/knative-kibana:5.6.4
 )
 
 for var in ${down_docker[@]};do
